@@ -1,0 +1,109 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 35%;
+    margin-left: 35%;
+    background-image: url(./images/pexels-photo-4498792.jpeg);
+}
+#title{
+     text-align: center;
+}
+#userForm{
+    margin-bottom: 20px;
+    border-style: solid;
+    padding-left: 140px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 20px;
+    background-color:#ffff;
+    border-radius: 20px;
+    box-shadow: 20px;
+    background-image: url(./images/image-3.webp);
+}
+
+#firstName{
+    display: inline-block;
+    box-shadow:1px 2px 5px rgba(0,0,0,rgba(0,0,0,.09)) ;
+    background-color: whitesmoke;
+    color: black;
+    width: 180px;
+    height: 23px;
+}
+#lastName{
+    box-shadow:1px 2px 5px rgba(0,0,0,rgba(0,0,0,.09)) ;
+    background-color: #ffff;
+    color: black;
+    width: 180px;
+    height: 23px;
+}
+#email{
+    display: inline-block;
+    box-shadow:1px 2px 5px rgba(0,0,0,rgba(0,0,0,.09)) ;
+    background-color: #ffff;
+    color: black;
+    width: 180px;
+    height: 23px;
+}
+#comments{
+    box-shadow:1px 2px 5px rgba(0,0,0,rgba(0,0,0,.09)) ;
+    background-color: #ffff;
+    color: black;
+}
+#pincode{
+    display: inline-block;
+    box-shadow:1px 2px 5px rgba(0,0,0,rgba(0,0,0,.09)) ;
+    background-color: #ffff;
+    color: black;
+    width: 180px;
+    height: 23px;
+}
+#state{
+    box-shadow:1px 2px 5px rgba(0,0,0,rgba(0,0,0,.09)) ;
+    background-color: #ffff;
+    color: black;
+    width: 180px;
+    height: 23px;
+}
+#country{
+    display: inline-block;
+    box-shadow:1px 2px 5px rgba(0,0,0,rgba(0,0,0,.09)) ;
+    background-color: #ffff;
+    color: black;
+    width: 180px;
+    height: 23px;
+}
+#food{
+    box-shadow:1px 2px 5px rgba(0,0,0,rgba(0,0,0,.09)) ;
+    background-color: #ffff;
+    color: black;
+}
+.submit-btn{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+}
+.submit{
+    padding-left: 50px;
+}
+.submit-title{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+}
+table,thead,tr,th{
+       border-style: solid; 
+       border-collapse: collapse;
+       align-items: center;
+       padding: 20px;
+       background-color:chocolate;
+       margin-left: 0px;
+}
+.heading1{
+     text-shadow: #ffff;
+}
+tbody{
+    border-style: solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+

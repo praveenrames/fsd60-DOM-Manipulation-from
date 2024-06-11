@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="heading1">
+    <h1 id="title">DOM Manipulation Form</h1>
+    </div>
+    <form id="userForm">
+        <div class="firstName">
+        <label for="firstName"><b>First Name:</b></label><br><br>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter the firstName"><br><br>
+        </div>
+         
+        <div class="lastName">
+        <label for="lastName"><b>Last Name:</b></label><br><br>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter the lastName"><br><br>
+        </div>
+
+        <div class="email">
+        <label for="email"><b>Email:</b></label><br><br>
+        <input type="email" id="email" name="email" placeholder="Enter the email"><br><br>
+        </div>
+
+        <div class="address">
+        <label for="address"><b>Address:</b></label><br><br>
+        <textarea type="text" id="address"name="address" rows="4" cols="23"></textarea><br><br>
+        </div>
+
+        <div class="pincode">
+        <label for="pincode"><b>Pincode:</b></label><br><br>
+        <input type="text" id="pincode" name="pincode" placeholder="Enter the pincode"><br><br>
+        </div>
+
+        <div class="state">
+        <label for="state"><b>State:</b></label><br><br>
+        <input type="text" id="state" name="state" placeholder="Enter the state"><br><br>
+        </div>
+
+        <div class="country">
+        <label for="country"><b>Country:</b></label><br><br>
+        <input type="text" id="country" name="country" placeholder="Enter the country" required><br><br>
+        </div>
+
+        <div class="food">
+        <label><b>Food:</b></label><br><br>
+        <input type="checkbox" name="food" value="Pizza"> Pizza<br>
+        <input type="checkbox" name="food" value="Burger"> Burger<br>
+        <input type="checkbox" name="food" value="Pasta"> Pasta<br>
+        <input type="checkbox" name="food" value="Salad"> Salad<br><br>
+        </div>
+         
+        <div class="gender">
+        <label><b>Gender:</b></label><br><br>
+        <input type="radio" name="gender" value="Male" required> Male<br>
+        <input type="radio" name="gender" value="Female" required> Female<br><br>
+        </div>
+
+        <div class="submit">
+        <button type="submit" class="submit-btn">Submit</button>
+        </div>
+    </form>
+
+    <div class="heading2">
+    <h2 class="submit-title">Submitted Records</h2>
+    </div>
+  <div class="record-Table">
+    <table id="recordsTable">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Food Selected</th>
+                <th>State</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody class="record-data">
+        </tbody>
+    </table>
+    </div>
+     
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
